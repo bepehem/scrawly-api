@@ -22,7 +22,7 @@ class Choice
     private $id;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", unique=true)
      * @Groups({"poll"})
      */
     private $date;
